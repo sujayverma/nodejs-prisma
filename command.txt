@@ -1,0 +1,7 @@
+1) npm init -y
+2) npm i typescript ts-node @type/node -D
+3) npx tsc --init
+4) npm i prisma
+5) npm i mysql2
+6) npx prisma init --datasource-provider mysql
+7) npx prisma migrate dev --name init
